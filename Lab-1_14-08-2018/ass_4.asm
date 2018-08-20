@@ -1,0 +1,15 @@
+
+;<Program title>
+
+LDA 2000
+MOV B, A
+LDA 2001
+ADD B
+JNC LB
+INR C
+
+LB: STA 2000
+MOV A, C
+STA 2001
+
+hlt

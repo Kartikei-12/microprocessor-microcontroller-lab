@@ -1,0 +1,18 @@
+
+;<Program title>
+
+LDA 5000
+MOV B, A
+LDA 5001
+MOV C, A
+
+MOV D, B
+MOV B, C
+MOV C, D
+
+MOV A, B
+STA 5000
+MOV A, C
+STA 5001
+
+hlt
