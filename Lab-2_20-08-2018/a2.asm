@@ -1,0 +1,24 @@
+
+;<Program title>
+;((18453)10 - (9632)10 = (8821)10
+;(48 15)16   (25 A0)16 =  22 75
+;72 21       37 160
+LDA 1002
+MOV B, A
+LDA 1000
+SUB B
+MOV C, A
+
+LDA 1003
+MOV D, A
+LDA 1001
+SBB D
+MOV E, A
+
+
+STA 1005
+MOV A, C
+STA 1004
+
+
+hlt
