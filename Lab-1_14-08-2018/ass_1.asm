@@ -1,18 +1,9 @@
 
-;<Program title>
-
-;Addition
-LDA 2001
-MOV B, A
-LDA 2000
-ADD B
-STA 5000
-
 ;Subtraction
-LDA 2001
+LDA 2001h
 MOV B, A
-LDA 2000
+LDA 2000h
 SUB B
-STA 6000
+STA 2003h
 
 hlt

@@ -1,0 +1,6 @@
+
+;Bit masking
+LDA 2000H
+ANI 0FH
+STA 2001H
+hlt

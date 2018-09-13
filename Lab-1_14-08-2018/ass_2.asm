@@ -1,18 +1,15 @@
 
 ;<Program title>
 
-LDA 5000
+LDA 2000H
 MOV B, A
-LDA 5001
+LDA 2001H
+
 MOV C, A
-
-MOV D, B
-MOV B, C
-MOV C, D
-
 MOV A, B
-STA 5000
+
+STA 2001H
 MOV A, C
-STA 5001
+STA 2000H
 
 hlt
