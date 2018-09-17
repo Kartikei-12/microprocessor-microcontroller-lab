@@ -1,15 +1,15 @@
 
 ;<Program title>
 
-LDA 2000
+LDA 2000h
 MOV B, A
-LDA 2001
+LDA 2001h
 ADD B
 JNC LB
 INR C
 
-LB: STA 2000
+LB: STA 2002h
 MOV A, C
-STA 2001
+STA 2003h
 
 hlt
