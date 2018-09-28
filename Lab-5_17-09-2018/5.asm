@@ -16,4 +16,4 @@ LOOP_END: INX H
 DCR E
 JNZ LOOP
 
-hlt
+HLT
